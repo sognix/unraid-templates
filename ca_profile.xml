@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<CommunityApplications>
+  <Profile>Unraid apps and plugins by sognix. Video2X WebGUI (Docker): web interface for Video2X, AI upscaling and frame interpolation of videos on your GPUs - support via https://github.com/sognix/video2x-webgui/issues. Swap Manager (plugin): create and manage a swapfile or ZFS zvol from the WebUI, with autostart, automatic swapoff before the array stop and an optional usage history - support via https://github.com/sognix/unraid-swap-manager/issues.</Profile>
+  <Icon>https://raw.githubusercontent.com/sognix/video2x-webgui/main/unraid/video2x-webgui.png</Icon>
+  <WebPage>https://github.com/sognix</WebPage>
+</CommunityApplications>
