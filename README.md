@@ -7,6 +7,7 @@ project repositories; the templates here only point to them.
 | Name | Type | Template | Project and support |
 |---|---|---|---|
 | Video2X WebGUI | Docker | [templates/video2x-webgui.xml](templates/video2x-webgui.xml) | [sognix/video2x-webgui](https://github.com/sognix/video2x-webgui) |
+| Strata Supervisor | Docker | [templates/strata-supervisor.xml](templates/strata-supervisor.xml) | [sognix/strata-supervisor](https://github.com/sognix/strata-supervisor) |
 | Swap Manager | Plugin | [plugins/swap-manager.xml](plugins/swap-manager.xml) | [sognix/unraid-swap-manager](https://github.com/sognix/unraid-swap-manager) |
 
 Please report problems in the issues of the project repository, not here.
@@ -16,6 +17,9 @@ Please report problems in the issues of the project repository, not here.
 - `templates/video2x-webgui.xml` is a copy of `unraid/video2x-webgui.xml` in the
   video2x-webgui repository. That file stays there: its `TemplateURL` points to it, and
   installed containers use that URL. Change both copies together.
+- `templates/strata-supervisor.xml` is a copy of `unraid/strata-supervisor.xml` in the
+  strata-supervisor repository, the same way.
+- Both projects' local `release.py` copies the template here after writing the release notes.
 - The plugin template's `PluginURL` must match the `pluginURL` in the plugin's `.plg` exactly.
 - After every template change: Validate and Scan on https://ca.unraid.net/submit.
 
